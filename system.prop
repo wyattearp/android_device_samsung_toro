@@ -1,0 +1,25 @@
+# This defines the max event window manager can
+# handle in 1 s. We may adjust this # for performance
+# reason later
+windowsmgr.max_events_per_sec=275
+# end build properties
+#
+# system.prop for toro
+#
+
+rild.libpath=/vendor/lib/libsec-ril_lte.so
+rild.libargs=-d /dev/ttys0
+telephony.lteOnCdmaDevice=1
+
+# Ril sends only one RIL_UNSOL_CALL_RING, so set call_ring.multiple to false
+ro.telephony.call_ring.multiple=0
+
+# Turn on IMS by default
+persist.radio.imsregrequired=1
+persist.radio.imsallowmtsms=1
+
+# Dalvik heapsize
+dalvik.vm.heapsize=128m
+
+# Default ecclist
+ro.ril.ecclist=112,911,#911,*911
