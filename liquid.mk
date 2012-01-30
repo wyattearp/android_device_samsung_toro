@@ -26,3 +26,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_DISPLAY_ID="Liquid ICS Beta 2" \
     PRIVATE_BUILD_DESC="mysid-user 4.0.2 ICL53F 235179 release-keys" \
     BUILD_FINGERPRINT=google/mysid/toro:4.0.2/ICL53F/235179:user/release-keys
+
+# media
+PRODUCT_COPY_FILES += \
+    vendor/liquid/prebuilt/common/media/xdpi/bootanimation.zip:system/media/bootanimation.zip
+

@@ -9,7 +9,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.config.vc_call_vol_steps=7 \
     ro.com.google.clientidbase=android-verizon \
     ro.com.google.locationfeatures=1 \
-    ro.com.android.dataroaming=false \
     ro.setupwizard.mode=OPTIONAL \
     ro.cdma.home.operator.numeric=310004 \
     ro.cdma.home.operator.alpha=Verizon \
