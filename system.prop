@@ -21,13 +21,5 @@ persist.radio.imsallowmtsms=1
 # Dalvik heapsize
 dalvik.vm.heapsize=128m
 
-# Default requests
-ro.ril.hep=1
-ro.ril.hsxpa=2
-ro.ril.enable.dtm=1
-ro.ril.enable.a53=1
-ro.ril.gprsclass=12
-ro.ril.hsdpa.category=8
-ro.ril.hsupa.category=5
-ro.ril.enable.3g.prefix=1
+# Default ecclist
 ro.ril.ecclist=112,911,#911,*911
