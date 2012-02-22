@@ -32,8 +32,3 @@ ro.ril.gprsclass=12
 ro.ril.hsdpa.category=8
 ro.ril.enable.a53=1
 ro.ril.hsupa.category=5
-
-# Performance tweaks
-mot.proximity.delay=300
-video.accelerate.hw=1
-pm.sleep_mode=1
