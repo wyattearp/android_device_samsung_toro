@@ -1,7 +1,7 @@
 # This defines the max event window manager can
 # handle in 1 s. We may adjust this # for performance
 # reason later
-windowsmgr.max_events_per_sec=275
+windowsmgr.max_events_per_sec=90
 # end build properties
 #
 # system.prop for toro
@@ -12,14 +12,28 @@ rild.libargs=-d /dev/ttys0
 telephony.lteOnCdmaDevice=1
 
 # Ril sends only one RIL_UNSOL_CALL_RING, so set call_ring.multiple to false
+ro.telephony.call_ring.delay=500
 ro.telephony.call_ring.multiple=0
 
 # Turn on IMS by default
-persist.radio.imsregrequired=1
 persist.radio.imsallowmtsms=1
+persist.radio.imsregrequired=1
 
 # Dalvik heapsize
 dalvik.vm.heapsize=128m
 
 # Default ecclist
 ro.ril.ecclist=112,911,#911,*911
+ro.ril.enable.3g.prefix=1
+ro.ril.hep=1
+ro.ril.hsxpa=3
+ro.ril.enable.dtm=1
+ro.ril.gprsclass=12
+ro.ril.hsdpa.category=8
+ro.ril.enable.a53=1
+ro.ril.hsupa.category=5
+
+# Performance tweaks
+mot.proximity.delay=300
+video.accelerate.hw=1
+pm.sleep_mode=1

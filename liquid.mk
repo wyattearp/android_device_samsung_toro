@@ -9,7 +9,7 @@ $(call inherit-product-if-exists, device/samsung/toro/full_toro.mk)
 
 # products
 PRODUCT_DEVICE := toro
-PRODUCT_BRAND := Google
+PRODUCT_BRAND := google
 PRODUCT_NAME := liquid_toro
 PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := Samsung
@@ -23,7 +23,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=mysid \
     TARGET_BUILD_TYPE=user \
     BUILD_VERSION_TAGS=release-keys \
-    BUILD_DISPLAY_ID="Liquid ICS Beta 5" \
+    BUILD_DISPLAY_ID="Liquid ICS v1.0" \
     PRIVATE_BUILD_DESC="mysid-user 4.0.4 IMM30B 257829 release-keys" \
     BUILD_FINGERPRINT=google/mysid/toro:4.0.4/IMM30B/257829:user/release-keys
 
