@@ -1,8 +1,4 @@
 
-# Packages
-PRODUCT_PACKAGES := \
-    Gallery
-
 #if we do this after the full_base_telephony is included some of these don't get picked up..
 PRODUCT_COPY_FILES += \
     device/samsung/toro/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
