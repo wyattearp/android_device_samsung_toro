@@ -16,7 +16,9 @@ persist.radio.imsallowmtsms=1
 persist.radio.imsregrequired=1
 
 # Dalvik heapsize
-dalvik.vm.heapsize=128m
+dalvik.vm.heapsize=256m
+dalvik.vm.heapstartsize=16m
+dalvik.vm.heapgrowthlimit=128m
 
 # Default ecclist
 ro.ril.ecclist=112,911,#911,*911
