@@ -1,7 +1,7 @@
 # This defines the max event window manager can
 # handle in 1 s. We may adjust this # for performance
 # reason later
-windowsmgr.max_events_per_sec=90
+windowsmgr.max_events_per_sec=275
 # end build properties
 #
 # system.prop for toro
@@ -19,14 +19,3 @@ persist.radio.imsregrequired=1
 dalvik.vm.heapsize=256m
 dalvik.vm.heapstartsize=16m
 dalvik.vm.heapgrowthlimit=128m
-
-# Default ecclist
-ro.ril.ecclist=112,911,#911,*911
-ro.ril.enable.3g.prefix=1
-ro.ril.hep=1
-ro.ril.hsxpa=3
-ro.ril.enable.dtm=1
-ro.ril.gprsclass=12
-ro.ril.hsdpa.category=8
-ro.ril.enable.a53=1
-ro.ril.hsupa.category=5
