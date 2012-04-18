@@ -19,3 +19,6 @@ persist.radio.imsregrequired=1
 dalvik.vm.heapsize=256m
 dalvik.vm.heapstartsize=16m
 dalvik.vm.heapgrowthlimit=128m
+
+# Disable error checking for a nice performance boost
+ro.kernel.android.checkjni=0
