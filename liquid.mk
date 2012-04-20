@@ -18,7 +18,7 @@ PRODUCT_PROPERTY_OVERRIDES += ro.modversion=liquid.toro.$(shell date +%m%d%y).$(
 # overrides
 PRODUCT_BUILD_PROP_OVERRIDES += \
     USER=liquid \
-    BUILD_ID=IMM76D \
+    BUILD_ID=IM76D \
     BUILD_NUMBER=235179 \
     PRODUCT_NAME=mysid \
     TARGET_BUILD_TYPE=user \
