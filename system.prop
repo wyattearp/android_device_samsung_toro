@@ -22,3 +22,12 @@ dalvik.vm.heapgrowthlimit=128m
 
 # Disable error checking for a nice performance boost
 ro.kernel.android.checkjni=0
+
+# Enable Debug performance tuning
+debug.performance.tuning=1
+
+#Allow power collapse for battery savings
+ro.ril.disable.power.collapse=0
+
+#Turn Jpeg Quality Up to 100%
+ro.media.enc.jpeg.quality=100
