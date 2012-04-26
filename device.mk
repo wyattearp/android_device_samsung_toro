@@ -26,3 +26,14 @@ PRODUCT_COPY_FILES += \
 
 $(call inherit-product, device/samsung/tuna/device.mk)
 $(call inherit-product-if-exists, vendor/samsung/toro/device-vendor.mk)
+
+# NFC EXTRAS add-on API
+PRODUCT_PACKAGES += \
+	com.android.nfc_extras
+PRODUCT_COPY_FILES += \
+	device/samsung/toro/com.android.nfc_extras.xml:system/etc/permissions/com.android.nfc_extras.xml
+
+# NFCEE access control
+NFCEE_ACCESS_PATH := device/samsung/toro/nfcee_access.xml
+PRODUCT_COPY_FILES += \
+    $(NFCEE_ACCESS_PATH):system/etc/nfcee_access.xml
