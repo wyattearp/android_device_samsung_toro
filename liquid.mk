@@ -20,12 +20,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     USER=liquid \
     BUILD_ID=IMM76D \
     BUILD_NUMBER=257829 \
-    PRODUCT_NAME=yakju \
+    PRODUCT_NAME=mysid
     TARGET_BUILD_TYPE=user \
     BUILD_VERSION_TAGS=release-keys \
     BUILD_DISPLAY_ID="Liquid ICS v1.3" \
-    PRIVATE_BUILD_DESC="yakju-user 4.0.4 IMM76D 299849 release-keys" \
-    BUILD_FINGERPRINT=google/yakju/maguro:4.0.4/IMM76D/299849:user/release-keys
+    PRIVATE_BUILD_DESC="mysid-user 4.0.4 IMM76K 336647 release-keys"
+    BUILD_FINGERPRINT="google/mysid/toro:4.0.4/IMM76K/336647:user/release-keys"
 
 # media
 PRODUCT_COPY_FILES += \
