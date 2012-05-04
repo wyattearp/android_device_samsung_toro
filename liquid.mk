@@ -24,8 +24,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_BUILD_TYPE=user \
     BUILD_VERSION_TAGS=release-keys \
     BUILD_DISPLAY_ID="Liquid ICS v1.3" \
-    PRIVATE_BUILD_DESC="mysid-user 4.0.4 IMM76K 336647 release-keys"
-    BUILD_FINGERPRINT="google/mysid/toro:4.0.4/IMM76K/336647:user/release-keys"
+    PRIVATE_BUILD_DESC="mysid-user 4.0.4 IMM76K 336647 release-keys" \
+    BUILD_FINGERPRINT=google/mysid/toro:4.0.4/IMM76K/336647:user/release-keys
 
 # media
 PRODUCT_COPY_FILES += \
