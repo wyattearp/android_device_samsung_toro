@@ -17,13 +17,11 @@ PRODUCT_PROPERTY_OVERRIDES += ro.modversion=liquid.toro.$(shell date +%m%d%y).$(
 
 # overrides
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    USER=liquid \
     BUILD_ID=IMM76K \
     BUILD_NUMBER=336647 \
     PRODUCT_NAME=mysid \
     TARGET_BUILD_TYPE=user \
     BUILD_VERSION_TAGS=release-keys \
-    BUILD_DISPLAY_ID="Liquid ICS v1.4" \
     PRIVATE_BUILD_DESC="mysid-user 4.0.4 IMM76K 336647 release-keys" \
     BUILD_FINGERPRINT="google/mysid/toro:4.0.4/IMM76K/336647:user/release-keys"
 
